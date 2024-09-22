@@ -54,7 +54,7 @@ margin: 10px;}
 
 
 
-.product{width:33%;
+.product{width:70%;
 margin:auto;
     display: flex;
     padding-top: 10%;
@@ -89,14 +89,17 @@ letter-spacing: 3px;}
     font-weight: 700;
     font-family: inherit;
     font-size: 36px;
+  width:80%
 }
 .description{
 font-size: 18px;
-color:#b3b2b7; }
+color:#b3b2b7;
+  width:80%}
 
 
 .price{display: flex;
-gap:10px}
+gap:10px
+  width:80%}
 
 .sale_price{font-size: 22px;
 color: #46816b;
@@ -110,4 +113,5 @@ text-decoration: line-through;}
 color:white;
 padding: 8px 20px 8px 20px;
 border:0px;
-border-radius: 8px;}
+border-radius: 8px;
+  width:80%}
