@@ -54,11 +54,10 @@ margin: 10px;}
 
 
 
-.product{width:33%;
+.product{width:50%;
 margin:auto;
     display: flex;
-    padding-top: 15%;
- 
+    padding-top: 13%;
 }
 
 main{background-color: rgb(255, 255, 255);
