@@ -1,0 +1,113 @@
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+ 
+body{
+background-color: #f3eae3;
+display: grid;
+place-content: center;
+margin: 10px;}
+
+
+
+.product{width:33%;
+margin:auto;
+    display: flex;
+    padding-top: 10%;
+}
+
+main{background-color: rgb(255, 255, 255);
+border-radius: 10px;
+padding-left: 10px;
+padding-bottom: 22px;
+padding-top:22px;
+display: grid;
+}
+
+@media { min-width: 600px; {grid-template-columns: lfr lfr;}
+@media screen and (min-width: 480px) {
+    product {
+        width: 100%;
+    
+}
+
+img, picture, video, canvas, svg {
+    display: flex;
+    max-width: 100%;border-radius: 10px;
+}
+
+/* i will designe the description of the product*/
+.frist_text{color: #b3b2b7;
+letter-spacing: 3px;}
+
+.product_title{
+    color: black;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 36px;
+}
+.description{
+font-size: 18px;
+color:#b3b2b7; }
+
+
+.price{display: flex;
+gap:10px}
+
+.sale_price{font-size: 22px;
+color: #46816b;
+font-weight: 800;}
+
+.orignal_price{
+size: 35px;
+text-decoration: line-through;}
+
+.product_button {background-color: #46816b;
+color:white;
+padding: 8px 20px 8px 20px;
+border:0px;
+border-radius: 8px;}
